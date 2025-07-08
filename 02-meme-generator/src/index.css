@@ -6,6 +6,19 @@
     box-sizing: border-box;
 }
 
+:root {
+    --background-color: rgba(78, 66, 66, 0.593);
+    --foreground-color: #164990;
+     --primary-text-color: #0a0a0a;
+    --secondary-text-color: #ffffff;
+    --toggle-bg: #f0eb9d;
+    --toggle-fg: #ffd000; 
+
+}
+[data-theme = "dark"] {
+
+}
+
 body {
     font-family: "Karla", sans-serif;
     margin: 0;
@@ -21,7 +34,7 @@ main {
     display: flex;
     align-items: center;
     height: 65px;
-    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    background-color: #1661ca;
     color: white;
     padding: 20px;
 }
@@ -108,3 +121,6 @@ main {
 .top {
     top: 0;
 }
+
+
+
